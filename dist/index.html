@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=bfcfadb2-7540-4c64-a26c-451866a502be" type="text/javascript"></script>
+    <title>Gross</title>
+<link href="./css/main.css" rel="stylesheet"></head>
+<body>
+
+    <svg style="display: none;">
+
+        <symbol id="facebook" viewBox="0 0 24 24">
+            <g>
+                <path d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM15 8H13.65C13.112 8 13 8.221 13 8.778V10H15L14.791 12H13V19H10V12H8V10H10V7.692C10 5.923 10.931 5 13.029 5H15V8Z" fill="black"/>
+            </g>
+         </symbol>
+
+        <symbol id="vk" viewBox="0 0 24 24">
+            <g>
+                <path d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM18.344 16.163H16.477C15.422 16.163 15.245 15.562 14.375 14.694C13.59 13.909 13.155 14.511 13.173 15.629C13.179 15.926 13.032 16.163 12.678 16.163C11.573 16.163 9.984 16.319 8.374 14.583C6.727 12.804 5 9.235 5 8.884C5 8.676 5.172 8.583 5.459 8.583H7.357C7.86 8.583 7.902 8.832 8.043 9.151C8.627 10.482 10.024 13.153 10.397 11.662C10.611 10.806 10.698 8.823 9.782 8.652C9.262 8.556 10.178 8 11.504 8C11.834 8 12.192 8.035 12.558 8.12C13.231 8.276 13.234 8.578 13.224 9.018C13.19 10.684 12.989 11.804 13.428 12.087C13.847 12.358 14.949 10.585 15.532 9.216C15.691 8.838 15.723 8.584 16.175 8.584H18.497C19.713 8.584 18.338 10.332 17.287 11.696C16.44 12.795 16.485 12.816 17.47 13.73C18.171 14.381 19 15.27 19 15.773C19 16.011 18.814 16.163 18.344 16.163Z" fill="black"/>
+            </g>
+        </symbol>
+
+    </svg>
+
+
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <img src="./images/logo.svg" alt="logo" class="logo__img">
+                    <div class="logo__title">гросс маркет</div>
+                </div>
+                <div class="header__contact">
+                    <a href="tel:+79264331416" class="header__number">+7 (926) 433-14-16</a>
+                    <a href="https://prnt.sc/vifjvh" class="header__form">заполнить анкету</a>
+                    <a class="header__mobile" href="tel:+79264331416">
+                        <img src="./images/phone.svg" alt="" class="header__mobile-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="slider__main">
+        <div class="slider__main--item">
+            <div class="container slider__container">
+                <div class="slider__main--text">
+                    У тебя <br> к этому талант
+                </div>
+                <div class="slider__main--img-wrapper">
+                    <img src="./images/slide_main-1.png" alt="" class="slider__main--img">
+                    <div class="slider__img--cloud img-job">пекарь</div>
+                    <div class="slider__img--cloud img-name">валентин</div>
+                </div>
+            </div>
+        </div>
+        <div class="slider__main--item">
+            <div class="container slider__container">
+                <div class="slider__main--text">
+                    У тебя <br> всё под контролем
+                </div>
+                <div class="slider__main--img-wrapper">
+                    <img src="./images/slide_main-2.png" alt="" class="slider__main--img">
+                    <div class="slider__img--cloud img-job">ксения</div>
+                    <div class="slider__img--cloud img-name">товаровед</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="vacancy">
+        <div class="container vacancy-container">
+            <h2 class="title">
+                вакансии в гросс маркете
+            </h2>
+
+            <div class="slider__vacancy">
+                <div class="slider__vacancy--item">
+                        <img src="./images/slide_vacancy-1.png" alt="" class="slider__vacancy--img">
+                        <div class="slider__img--cloud">товаровед</div>
+                    </div>
+                <div class="slider__vacancy--item">
+                        <img src="./images/slide_vacancy-2.png" alt="" class="slider__vacancy--img">
+                        <div class="slider__img--cloud">водитель</div>
+                        <div class="slider__vacancy-text">
+                                Доставка товара по магазинам и гипермаркетам компании в обслуживаемом регионе
+                        </div>
+                    </div>
+                <div class="slider__vacancy--item">
+                        <img src="./images/slide_vacancy-3.png" alt="" class="slider__vacancy--img">
+                        <div class="slider__img--cloud">пекарь</div>
+                    </div>
+                <div class="slider__vacancy--item">
+                        <img src="./images/slide_vacancy-4.png" alt="" class="slider__vacancy--img">
+                        <div class="slider__img--cloud">кассир</div>
+                    </div>
+                <div class="slider__vacancy--item">
+                        <img src="./images/slide_vacancy-5.png" alt="" class="slider__vacancy--img">
+                        <div class="slider__img--cloud">продавец</div>
+                    </div>
+                <div class="slider__vacancy--item">
+                        <img src="./images/slide_vacancy-6.png" alt="" class="slider__vacancy--img">
+                        <div class="slider__img--cloud">повар</div>
+                    </div>
+                <div class="slider__vacancy--item">
+                        <img src="./images/slide_vacancy-7.png" alt="" class="slider__vacancy--img">
+                        <div class="slider__img--cloud">приёмщик</div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="posts">
+        <div class="container">
+            <div class="posts__content">
+                <h2 class="title">мы в инстаграме</h2>
+                <div class="posts__items">
+                    <div class="posts__item post__big">1</div>
+                    <div class="posts__item post__big-media">2</div>
+                    <div class="posts__item">3</div>
+                    <div class="posts__item">4</div>
+                    <div class="posts__item">5</div>
+                    <div class="more__posts">
+                        <div class="posts__item">6</div>
+                        <div class="posts__item">7</div>
+                        <div class="posts__item">8</div>
+                        <div class="posts__item">9</div>
+                        <div class="posts__item">10</div>
+                        <div class="posts__item">11</div>
+                        <div class="posts__item">12</div>
+                        <div class="posts__item">13</div>
+                    </div>
+                </div>
+                <button class="show__more" type="button">показать еще</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="map">
+        <div class="container">
+            <h2 class="title">география</h2>
+            <div class="nav-map">
+                <ul class="nav nav-list">
+                    <li id="ur" class="nav-header">
+                        <span class="label label-dir">юрлица</span>
+                    </li>
+                    <li id="phis" class="nav-header">
+                        <span class="label label-phis">физлица</span>
+                    </li>
+                    <li id="all" class="nav-header active">
+                        <span class="label label-all">показать всё</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="map"></div>
+        </div>
+    </section>
+
+
+    <section class="popup-fade">
+        <div class="modal">
+            <div class="modal__header">
+                <button class="modal__close">
+                    <img src="./images/close_btn.svg" alt="" class="modal__close-btn">
+                </button>
+                <h1 class="modal__title" id="titlePop">Обработка данных</h1>
+            </div>
+            <div class="modal__info">
+                <div class="modal__info--item">
+                    <p class="modal__text--title">1. Что регулирует настоящая политика конфиденциальности</p>
+                    <p class="modal__text">
+                        Настоящая политика конфиденциальности (далее — Политика)
+                        действует в отношении всей информации, включая персональные данные в понимании применимого законодательства
+                        (далее — «Персональная информация»), которую ООО «Гросс маркет» и/или его аффилированные лица,
+                        в том числе входящие в одну группу с ООО «Гросс маркет» (далее — «Гросс маркет»),
+                        могут получить о
+                        Вас в процессе использования Вами любых сайтов, программ, продуктов и/или сервисов Гросс маркет (далее вместе  «Сервисы»),
+                        информацию о которых Гросс маркет может также получать Персональную информацию от своих партнеров (далее — «Партнеры»),
+                        сайты, программы, продукты или сервисы которых Вы используете (например, от рекламодателей Гросс маркет или службами такси).
+                        В таких случаях передача Персональной информации возможна только в случаях, установленных применимым законодательством,
+                        и осуществляется на основании специальных договоров между Гросс маркет и каждым из Партнеров.
+                    </p>
+                    <p class="modal__attention">
+                        Пожалуйста, обратите внимание, что использование любого из Сайтов и/или Сервисов может регулироваться дополнительными
+                        условиями, которые могут вносить в настоящую Политику изменения и/или дополнения, и/или иметь специальные условия в отношении персональной информации,
+                        размещенные в соответствующих разделах документов для таких Сайтов /или Сервисов.
+                    </p>
+                </div>
+                <div class="modal__info--item">
+                    <p class="modal__text--title">2.Кто обрабатывает информацию</p>
+                    <p class="modal__text">
+                        Для обеспечения использования Вами Сайтов и Сервисов Ваша Персональная информация собирается и используется Яндексом, в том числе включая общество с ограниченной ответственностью «Гросс маркет», юридическое лицо, созданное по законодательству Российской Федерации и зарегистрированное по адресу: 123351, Россия, Москва, ул. Гроссова, д. 12 (ООО «Гросс маркет»), или его аффилированным лицом, предоставляющим соответствующий Сервис в иных юрисдикциях. С информацией о том, какое лицо предоставляет тот или иной Сервис, Вы можете ознакомиться в условиях использования соответствующего Сервиса.
+                    </p>
+
+                </div>
+                <div class="modal__info--item">
+                    <p class="modal__text--title">3.Какова цель данной Политики</p>
+                    <p class="modal__text">
+                        Защита Вашей Персональной информации и Вашей конфиденциальности чрезвычайно важны для Гросс маркета. Поэтому при использовании Вами Сайтов и Сервисов Гросс маркет защищает и обрабатывает Вашу Персональную информацию в строгом соответствии с применимым законодательством.
+                    </p>
+
+                </div>
+                <div class="modal__info--item">
+                    <p class="modal__text--title">4.Какую Персональную информацию о Вас собирает Гросс маркет</p>
+                    <p class="modal__text">
+                        Для обеспечения использования Вами Сайтов и Сервисов Ваша Персональная информация собирается и используется Яндексом, в том числе включая общество с ограниченной ответственностью «Гросс маркет», юридическое лицо, созданное по законодательству Российской Федерации и зарегистрированное по адресу: 123351, Россия, Москва, ул. Гроссова, д. 12 (ООО «Гросс маркет»), или его аффилированным лицом, предоставляющим соответствующий Сервис в иных юрисдикциях. С информацией о том, какое лицо предоставляет тот или иной Сервис, Вы можете ознакомиться в условиях использования соответствующего Сервиса.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__main">
+                    <div class="logo">
+                        <img src="./images/logo.svg" alt="logo" class="logo__img">
+                        <div class="logo__title">гросс маркет</div>
+                    </div>
+                    <a href="" class="footer__share">поделиться</a>
+                    <div class="footer__social">
+                        <a href="_target" class="footer__social--item">
+                            <svg class="facebook">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="_target" class="footer__social--item">
+                            <svg class="vkontakte">
+                                <use xlink:href="#vk"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__credits">
+                    <div class="footer__copyright">&copy; Гросс маркет 2020</div>
+                    <a href="" class="footer__politic">Политика обработки персональных данных</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./js/vendors-node_modules_html-loader_dist_runtime_getUrl_js-node_modules_slick-carousel_slick_slick_js.js"></script><script src="./js/main.js"></script></body>
+</html>
