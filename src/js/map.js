@@ -1,5 +1,15 @@
 import $ from "jquery";
 
+
+
+
+
+
+
+
+
+
+
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [55.751574, 37.620393],
@@ -23,7 +33,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -36,9 +46,9 @@ ymaps.ready(function () {
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
-            iconLayout: 'default#imageWithContent',
+            iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -55,7 +65,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -72,7 +82,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -89,7 +99,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -106,7 +116,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -123,7 +133,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -140,7 +150,7 @@ ymaps.ready(function () {
             // Необходимо указать данный тип макета.
             iconLayout: 'default#imageWithContent',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -154,9 +164,9 @@ ymaps.ready(function () {
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
-            iconLayout: 'default#imageWithContent',
+            iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно
@@ -171,9 +181,9 @@ ymaps.ready(function () {
         }, {
             // Опции.
             // Необходимо указать данный тип макета.
-            iconLayout: 'default#imageWithContent',
+            iconLayout: 'default#image',
             // Своё изображение иконки метки.
-            iconImageHref: '../images/logo.svg',
+            iconImageHref: './images/logo.svg',
             // Размеры метки.
             iconImageSize: [16, 24],
             // Смещение левого верхнего угла иконки относительно

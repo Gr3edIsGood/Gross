@@ -2,8 +2,8 @@ import '../scss/style.scss';
 import '../index.html';
 import $ from 'jquery';
 import 'slick-carousel';
+import './sliders';
 import './map';
-import './sliders'
 
 
 
@@ -59,6 +59,5 @@ $(document).ready(function(){
         });
     });
 })
-
 
 
