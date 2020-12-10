@@ -16,8 +16,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! slick-carousel */ "../node_modules/slick-carousel/slick/slick.js");
 /* harmony import */ var slick_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(slick_carousel__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _map__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./map */ "./js/map.js");
-/* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./sliders */ "./js/sliders.js");
+/* harmony import */ var _sliders__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sliders */ "./js/sliders.js");
+/* harmony import */ var _map__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./map */ "./js/map.js");
 
 
 
@@ -103,7 +103,7 @@ ymaps.ready(function () {
     // Необходимо указать данный тип макета.
     iconLayout: 'default#image',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -114,9 +114,9 @@ ymaps.ready(function () {
       myPlacemark1 = new ymaps.Placemark([55.7640, 37.6126], {}, {
     // Опции.
     // Необходимо указать данный тип макета.
-    iconLayout: 'default#imageWithContent',
+    iconLayout: 'default#image',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -131,7 +131,7 @@ ymaps.ready(function () {
     // Необходимо указать данный тип макета.
     iconLayout: 'default#imageWithContent',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -146,7 +146,7 @@ ymaps.ready(function () {
     // Необходимо указать данный тип макета.
     iconLayout: 'default#imageWithContent',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -161,7 +161,7 @@ ymaps.ready(function () {
     // Необходимо указать данный тип макета.
     iconLayout: 'default#imageWithContent',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -176,7 +176,7 @@ ymaps.ready(function () {
     // Необходимо указать данный тип макета.
     iconLayout: 'default#imageWithContent',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -191,7 +191,7 @@ ymaps.ready(function () {
     // Необходимо указать данный тип макета.
     iconLayout: 'default#imageWithContent',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -206,7 +206,7 @@ ymaps.ready(function () {
     // Необходимо указать данный тип макета.
     iconLayout: 'default#imageWithContent',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -219,9 +219,9 @@ ymaps.ready(function () {
       myPlacemark8 = new ymaps.Placemark([55.7515, 37.6371], {}, {
     // Опции.
     // Необходимо указать данный тип макета.
-    iconLayout: 'default#imageWithContent',
+    iconLayout: 'default#image',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
@@ -234,9 +234,9 @@ ymaps.ready(function () {
       myPlacemark9 = new ymaps.Placemark([55.7666, 37.6316], {}, {
     // Опции.
     // Необходимо указать данный тип макета.
-    iconLayout: 'default#imageWithContent',
+    iconLayout: 'default#image',
     // Своё изображение иконки метки.
-    iconImageHref: '../images/logo.svg',
+    iconImageHref: './images/logo.svg',
     // Размеры метки.
     iconImageSize: [16, 24],
     // Смещение левого верхнего угла иконки относительно
